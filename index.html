@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script src="/node_modules/animejs/lib/anime.min.js"></script>
+    <div class="start-screen">
+        <h3 class="animation">
+            <span class="letter">W</span>
+            <span class="letter">E</span>
+            <span class="letter">L</span>
+            <span class="letter">C</span>
+            <span class="letter">O</span>
+            <span class="letter">M</span>
+            <span class="letter">E</span>
+            <div class="separator"></div>
+            <span class="letter">T</span>
+            <span class="letter">O</span>
+            <div class="separator"></div>
+            <span class="letter">A</span>
+            <div class="separator"></div>
+            <span class="letter">M</span>
+            <span class="letter">E</span>
+            <span class="letter">M</span>
+            <span class="letter">O</span>
+            <span class="letter">R</span>
+            <span class="letter">Y</span>
+            <div class="separator"></div>
+            <span class="letter">G</span>
+            <span class="letter">A</span>
+            <span class="letter">M</span>
+            <span class="letter">E</span>
+        <h3>
+        <button class="start-button">Start</button>
+    </div>
+    <div class="container" id="game-container">
+        <h2>Memory Game</h2>
+        <div id="timer" class="timer"></div>
+        <div class="game"></div>
+        <button class="reset">Replay</button>
+    </div>
+    <div id="end-screen" class="end-screen">
+        <div id="end-message"></div>
+        <button class="start-again-button">Start Again</button>
+        <canvas class="fireworks"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
